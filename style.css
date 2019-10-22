@@ -31,7 +31,7 @@ html {
 
 .navbar-default {
     background-color: #f8f8f8;
-    border-color: #e7e7e7;
+    border-color: grey;
 }
 
 .container-fluid {
@@ -107,15 +107,15 @@ ul {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: white;
+  color: grey;
   padding: 16px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: ;
+.dropdown:hover .dropbtn {
+  background-color: white;
 }
 
 .dropdown-content {
@@ -146,10 +146,12 @@ ul {
 
 a:link { 
 	text-decoration: none;
+	color: grey
 }
 
 a:active { 
 	text-decoration: none;
+	color: grey
 }
 　　 
 a:hover { 
@@ -161,7 +163,7 @@ a:hover {
 　　
 a:visited { 
 	text-decoration: none;
-	color:black;
+	color:grey;
 }
 
 .this {
@@ -351,7 +353,7 @@ h3 {
 }
 
 .para {
-	text-align: left;
+	text-align: justify;
 	max-width: 780px;
 	font-size: 16px;
 	font-family: Verdana;
