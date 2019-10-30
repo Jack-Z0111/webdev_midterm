@@ -95,7 +95,8 @@ ul {
 }
 
 .cative {
-	text-align: right
+	text-align: left;
+	float: left;
 }
 
 .dropdown {
@@ -321,7 +322,7 @@ h3 {
 	color: white;
 	font-size: 50px;
 	font-family: Verdana;
-	padding-top: 300px;
+	padding-top: 270px;
 	-webkit-filter: drop-shadow(0px 3px 3px #000)
 }
 
